@@ -23,6 +23,7 @@
         <label for="7-days">Next 5 days</label><br>
 
         <button onclick="getWeather()" class="weather-button">Get Weather</button>
+        <button onclick="showHelp()" class="help-button">Help</button>
 
         <div id="map"></div>
         
@@ -44,6 +45,16 @@
 
         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
         <script src="script.js"></script>
+    </div>
+
+    <div id="help-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeHelp()">&times;</span>
+            <h2>Help - Weather Forecast Application</h2>
+            <p>This application allows you to get weather forecasts for cities in Greece.</p>
+            <p>Enter a city name, select the forecast duration, and click "Get Weather" to view the weather information.</p>
+            <p>You can also click on the map to get the weather forecast for the nearest city to the clicked location.</p>
+        </div>
     </div>
 </body>
 </html>
