@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/10/clouds-summer-weather-4k_1540136727.jpg.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #030303;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#map {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+canvas {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.weather-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.loading {
+    text-align: center;
+    font-style: italic;
+}
+.chart-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.chart-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
